@@ -1,0 +1,13 @@
+{
+    "name": "development",
+    "type": "mysql",
+    "host": "sql306.epizy.com",
+    "port": 3306,
+    "username": "epiz_28861913",
+    "password": "QdUnbR5H2tm3",
+    "database": "epiz_28861913_devanshi",
+    "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true,
+    "logging": true
+    
+}
