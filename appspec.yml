@@ -2,8 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/node
-    hooks:
+    destination: /usr/share/nginx/html
+    overwrite: true
+hooks:
   BeforeInstall:
     - location: scripts/BeforeInstallHook.sh
       timeout: 300
