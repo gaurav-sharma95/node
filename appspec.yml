@@ -3,10 +3,3 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/node
-hooks:
-  BeforeInstall:
-    - location: scripts/BeforeInstallHook.sh
-      timeout: 300
-  AfterInstall:
-    - location: scripts/AfterInstallHook.sh
-      timeout: 300
